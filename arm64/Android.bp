@@ -97,6 +97,7 @@ android_app_import {
 cc_prebuilt_library_shared {
     name: "libjni_latinimegoogle",
     srcs: ["proprietary/product/lib64/libjni_latinimegoogle.so"],
+    shared_libs: ["libstdc++"],
     prefer: true,
     product_specific: true,
 }
