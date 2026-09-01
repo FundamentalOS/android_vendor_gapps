@@ -13,13 +13,8 @@ ifeq ($(TARGET_IS_GROUPER),)
 PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     SpeechServicesByGoogle \
-    Velvet \
     talkback
 endif
 
-ifneq ($(filter %tangorpro,$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGES += \
-    VelvetTitan
-endif
 
 $(call inherit-product, vendor/gapps/common/common-vendor.mk)
