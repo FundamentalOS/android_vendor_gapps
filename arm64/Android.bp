@@ -127,3 +127,16 @@ android_app_import {
     overrides: ["LatinIME"],
     product_specific: true,
 }
+
+android_app_import {
+    name: "Photos",
+    owner: "gapps",
+    apk: "proprietary/product/app/Photos/Photos.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    overrides: ["Glimpse"],
+    product_specific: true,
+}

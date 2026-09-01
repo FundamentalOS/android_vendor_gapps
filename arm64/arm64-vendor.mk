@@ -16,7 +16,8 @@ PRODUCT_PACKAGES += \
     Velvet \
     talkback \
     DevicePersonalizationServices \
-    LatinIMEGooglePrebuilt
+    LatinIMEGooglePrebuilt \
+    Photos
 endif
 
 

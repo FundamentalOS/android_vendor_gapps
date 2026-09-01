@@ -2,3 +2,4 @@ arm64/proprietary/product/priv-app/GmsCore/GmsCore.apk filter=lfs diff=lfs merge
 arm64/proprietary/product/priv-app/Velvet/Velvet.apk filter=lfs diff=lfs merge=lfs -text
 arm64/proprietary/product/priv-app/DevicePersonalizationServices/DevicePersonalizationServices.apk filter=lfs diff=lfs merge=lfs -text
 arm64/proprietary/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk filter=lfs diff=lfs merge=lfs -text
+arm64/proprietary/product/app/Photos/Photos.apk filter=lfs diff=lfs merge=lfs -text
