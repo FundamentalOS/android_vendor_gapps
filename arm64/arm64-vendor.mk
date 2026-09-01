@@ -14,7 +14,9 @@ PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     SpeechServicesByGoogle \
     Velvet \
-    talkback
+    talkback \
+    DevicePersonalizationServices \
+    LatinIMEGooglePrebuilt
 endif
 
 
