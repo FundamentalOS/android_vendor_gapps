@@ -13,6 +13,7 @@ ifeq ($(TARGET_IS_GROUPER),)
 PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     SpeechServicesByGoogle \
+    Velvet \
     talkback
 endif
 
