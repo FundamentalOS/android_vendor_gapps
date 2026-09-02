@@ -19,7 +19,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SATELLITE_COMMUNICATION"/>
         <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
-    </privapp-permissions>
+            <permission name="com.google.android.apps.messaging.emergency.permission.START_ESOS_CONVERSATION"/>
+        <permission name="com.google.android.apps.stargate.permission.END_EMERGENCY_INTENTS"/>
+        <permission name="com.google.android.apps.stargate.permission.SEND_EMERGENCY_INTENTS"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.restore">
         <permission name="android.permission.BACKUP"/>
@@ -31,7 +34,9 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
         <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
+            <permission name="android.permission.ACCESS_LAUNCHER_DATA"/>
+        <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.safetyhub">
         <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
@@ -45,7 +50,13 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACTIVITY_RECOGNITION"/>
+        <permission name="android.permission.BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION"/>
+        <permission name="android.permission.READ_SYSTEM_GRAMMATICAL_GENDER"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.as">
         <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
@@ -76,7 +87,12 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.UPDATE_DEVICE_STATS"/>
         <permission name="android.permission.USE_ON_DEVICE_INTELLIGENCE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
+            <permission name="android.permission.ACCESS_HIDDEN_PROFILES_FULL"/>
+        <permission name="android.permission.ACCESS_TEXT_CLASSIFIER_BY_TYPE"/>
+        <permission name="android.permission.BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION"/>
+        <permission name="android.permission.MODIFY_AUDIO_SETTINGS_PRIVILEGED"/>
+        <permission name="android.permission.QUERY_USERS"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.as.oss">
         <permission name="android.permission.READ_RESTRICTED_STATS"/>
@@ -122,7 +138,9 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="com.android.permission.USE_INSTALLER_V2"/>
         <permission name="com.google.android.settings.setup.dock.RUN_DOCK_SETUP"/>
-    </privapp-permissions>
+            <permission name="android.permission.HIDE_STATUS_BAR_NOTIFICATION"/>
+        <permission name="android.permission.QUERY_ADVANCED_PROTECTION_MODE"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.actionsservice">
         <permission name="android.permission.CALL_PRIVILEGED"/>
@@ -182,7 +200,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
         <permission name="android.permission.POWER_SAVER"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
-    </privapp-permissions>
+            <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.wellbeing">
         <permission name="android.permission.ACCESS_AMBIENT_CONTEXT_EVENT"/>
@@ -209,7 +230,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SYSTEM_APPLICATION_OVERLAY"/>
         <permission name="android.permission.WRITE_DREAM_STATE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
+            <permission name="android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SUSPEND_APPS"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.configupdater">
         <permission name="android.permission.UPDATE_CONFIG"/>
@@ -218,7 +242,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
         <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
-    </privapp-permissions>
+            <permission name="android.permission.QUERY_USERS"/>
+</privapp-permissions>
     <privapp-permissions package="com.google.android.gms">
         <permission name="android.permission.ACCESS_BROADCAST_RESPONSE_STATS"/>
         <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
@@ -337,7 +362,22 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.WRITE_VERIFICATION_STATE_E2EE_CONTACT_KEYS"/>
         <permission name="android.permission.THREAD_NETWORK_PRIVILEGED"/>
         <permission name="android.permission.READ_DROPBOX_DATA"/>
-    </privapp-permissions>
+            <permission name="android.permission.BIND_INTRUSION_DETECTION_EVENT_TRANSPORT_SERVICE"/>
+        <permission name="android.permission.BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION"/>
+        <permission name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT"/>
+        <permission name="android.permission.CAPTURE_VIDEO_OUTPUT"/>
+        <permission name="android.permission.GET_ROLE_HOLDERS"/>
+        <permission name="android.permission.LOG_COMPAT_CHANGE"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_SECURE_LOCK_DEVICE"/>
+        <permission name="android.permission.OBSERVE_ROLE_HOLDERS"/>
+        <permission name="android.permission.READ_COMPAT_CHANGE_CONFIG"/>
+        <permission name="android.permission.READ_NEARBY_STREAMING_POLICY"/>
+        <permission name="android.permission.REGISTER_CALL_PROVIDER"/>
+        <permission name="android.permission.USE_FULL_SCREEN_INTENT"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.gms.supervision">
         <permission name="android.permission.ACCESS_NETWORK_CONDITIONS"/>
@@ -360,7 +400,12 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.STATUS_BAR"/>
         <permission name="android.permission.USER_ACTIVITY"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-    </privapp-permissions>
+            <permission name="android.permission.GET_ROLE_HOLDERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.OBSERVE_ROLE_HOLDERS"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+        <permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.projection.gearhead">
         <permission name="android.permission.ACTIVITY_EMBEDDING"/>
@@ -382,7 +427,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
-    </privapp-permissions>
+            <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.POWER_SAVER"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.google.android.googlequicksearchbox">
         <permission name="android.permission.BIND_APPWIDGET"/>
@@ -414,7 +462,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON"/>
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
         <permission name="android.permission.RECEIVE_SANDBOX_TRIGGER_AUDIO"/>
-    </privapp-permissions>
+            <permission name="android.permission.SHOW_KEYGUARD_MESSAGE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="com.google.android.permission.SET_WATCH_FACE_PRIVILEGED"/>
+</privapp-permissions>
 
     <privapp-permissions package="com.android.hotwordenrollment.okgoogle">
         <permission name="android.permission.KEYPHRASE_ENROLLMENT_APPLICATION"/>
@@ -451,5 +502,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
         <permission name="android.permission.REAL_GET_TASKS"/>
         <permission name="android.permission.MANAGE_ACCESSIBILITY"/>
-    </privapp-permissions>
+            <permission name="android.permission.BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION"/>
+</privapp-permissions>
 </permissions>
