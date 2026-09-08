@@ -93,6 +93,20 @@ android_app_import {
 }
 
 android_app_import {
+    name: "ModuleMetadataGoogle",
+    owner: "gapps",
+    apk: "proprietary/product/priv-app/ModuleMetadataGoogle/ModuleMetadataGoogle.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    overrides: ["ModuleMetadata"],
+    product_specific: true,
+}
+
+android_app_import {
     name: "GoogleServicesFramework",
     owner: "gapps",
     apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",

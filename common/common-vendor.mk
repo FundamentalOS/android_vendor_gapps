@@ -30,6 +30,7 @@ ifeq ($(TARGET_IS_GROUPER),)
 PRODUCT_PACKAGES += \
     GoogleRestore \
     TurboPrebuilt \
+    ModuleMetadataGoogle \
     Wellbeing \
     wellbeing.xml
 endif

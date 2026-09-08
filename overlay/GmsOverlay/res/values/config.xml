@@ -149,4 +149,7 @@
     <!-- Notification listeners approved by default (stock Pixel list). ASI needs
          this to read the Google app's smartspace notifications. -->
     <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.google.pixel.exo:com.google.android.odad</string>
+    <!-- Settings > About > Android version > "Google Play system update" reads the version
+         name of this package; Google's ModuleMetadata carries the Mainline train date. -->
+    <string name="config_defaultModuleMetadataProvider" translatable="false">com.google.android.modulemetadata</string>
 </resources>
