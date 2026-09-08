@@ -4,6 +4,7 @@ product/app/PrebuiltExchange3Google/PrebuiltExchange3Google.apk;PRESIGNED|043cb7
 
 product/priv-app/AndroidAutoStub/AndroidAutoStub.apk;PRESIGNED
 product/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk;PRESIGNED
+product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
 
 product/framework/com.google.android.dialer.support.jar;PRESIGNED
 

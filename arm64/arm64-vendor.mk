@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     GmsCore \
     Phonesky \
-    libjni_latinimegoogle
 
 ifeq ($(TARGET_IS_GROUPER),)
 PRODUCT_PACKAGES += \

@@ -245,6 +245,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
             <permission name="android.permission.QUERY_USERS"/>
 </privapp-permissions>
     <privapp-permissions package="com.google.android.gms">
+        <permission name="android.permission.ACCESS_CELL_BROADCAST"/>
+        <permission name="android.permission.DRAW_MOTION_CUES"/>
+        <permission name="android.permission.PERFORM_GESTURE_EXCHANGE"/>
+        <permission name="com.google.wear.permission.DISPLAY_OFFLOAD"/>
+        <permission name="com.google.wear.permission.MANAGE_ACTIVITY_AUTO_RESUME"/>
         <permission name="android.permission.ACCESS_BROADCAST_RESPONSE_STATS"/>
         <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
         <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
