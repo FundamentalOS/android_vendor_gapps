@@ -96,4 +96,9 @@
 
     <!-- Denylist of packages that are not eligible for automatic rollback -->
     <automatic-rollback-denylisted-app package="com.android.vending" />
+    <!-- Google OTAs never apply to this device; keep the GMS system update UI out of the way of
+         our own Updater (which handles SYSTEM_UPDATE_SETTINGS). -->
+    <component-override package="com.google.android.gms">
+        <component class="com.google.android.gms.update.SystemUpdateActivity" enabled="false" />
+    </component-override>
 </config>
