@@ -75,6 +75,9 @@
     <allow-association target="com.google.android.as" allowed="com.android.providers.media" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.telephony" />
     <allow-association target="com.google.android.as" allowed="com.android.systemui" />
+    <allow-association target="com.google.android.as" allowed="com.android.phone" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.blockednumber" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.settings.intelligence" />
     <allow-association target="com.google.android.as" allowed="com.google.android.bluetooth" />
     <allow-association target="com.google.android.as" allowed="com.google.android.bluetooth.services" />
     <allow-association target="com.google.android.as" allowed="com.google.android.providers.media.module" />
@@ -82,7 +85,6 @@
     <allow-association target="com.google.android.as" allowed="com.google.android.as.oss" />
 
     <!-- AI services open-source network component can only bind back to the core package. -->
-    <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
 
     <!-- Specify the explicit set of other applications whose app data directories are
         accessible by other applications. -->
