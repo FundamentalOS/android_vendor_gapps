@@ -152,4 +152,22 @@
     <!-- Settings > About > Android version > "Google Play system update" reads the version
          name of this package; Google's ModuleMetadata carries the Mainline train date. -->
     <string name="config_defaultModuleMetadataProvider" translatable="false">com.google.android.modulemetadata</string>
+
+    <!-- Content capture provider: Android System Intelligence. SystemServer only starts
+         ContentCaptureManagerService when this is non-empty, and without that service
+         ContentCaptureManager.shareData() has nowhere to go: it is how the Google app, Clock,
+         Digital Wellbeing and GMS hand their At a Glance data (weather, timers, ...) to ASI. -->
+    <string name="config_defaultContentCaptureService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
+
+    <!-- The remaining ASI-backed system services stock Pixel points at ASI (same
+         PixelConfigOverlayCommon). Each framework service is only started or used when the
+         corresponding feature is exercised. -->
+    <string name="config_defaultAugmentedAutofillService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService</string>
+    <string name="config_defaultFieldClassificationService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AutofillFieldClassificationService</string>
+    <string name="config_defaultTranslationService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiTranslationService</string>
+    <string name="config_defaultWallpaperEffectsGenerationService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.wallpapereffects.AiAiWallpaperEffectsGenerationService</string>
+    <string name="config_defaultSearchUiService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService</string>
+    <string name="config_defaultOnDeviceSpeechRecognitionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService</string>
+    <string name="config_defaultAmbientContextDetectionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAmbientContextDetectionService</string>
+    <string name="config_defaultAmbientContextConsentComponent" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.ambientcontext.ui.ConsentActivity</string>
 </resources>
