@@ -520,4 +520,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MANAGE_ACCESSIBILITY"/>
             <permission name="android.permission.BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION"/>
 </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.weather">
+        <permission name="android.permission.PERSONAL_CONTEXT_HOST_INSIGHT_SURFACE"/>
+        <permission name="android.permission.PERSONAL_CONTEXT_PUBLISH_HINTS"/>
+        <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS"/>
+    </privapp-permissions>
 </permissions>

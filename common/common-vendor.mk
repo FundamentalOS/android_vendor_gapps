@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     com.google.android.dialer.support.xml \
     d2d_cable_migration_feature.xml \
     default-permissions-google.xml \
+    default-permissions_pixelweather.xml \
     default-permissions-mtg.xml \
     gapps.rc \
     gms_fsverity_cert.der \
