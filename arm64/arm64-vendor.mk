@@ -13,7 +13,6 @@ PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     SpeechServicesByGoogle \
     Velvet \
-    WeatherPixelPrebuilt \
     talkback \
     LatinIMEGooglePrebuilt \
     Photos
