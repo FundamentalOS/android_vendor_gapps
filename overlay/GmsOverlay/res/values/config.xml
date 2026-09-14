@@ -138,8 +138,8 @@
          Stock Pixel carries these in PixelConfigOverlayCommon; LineageOS strips
          them from the device tree, so they live with the GApps overlay instead. -->
 
-    <!-- Smartspace ("At a Glance") provider: Android System Intelligence. -->
-    <string name="config_defaultSmartspaceService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService</string>
+    <!-- Smartspace ("At a Glance") provider: FundamentalIntelligence (ASI Alt), replacing Android System Intelligence. -->
+    <string name="config_defaultSmartspaceService" translatable="false">org.fundamentalos.intelligence/org.fundamentalos.intelligence.smartspace.FundamentalSmartspaceService</string>
 
     <!-- Music recognition service used by Now Playing's on-demand search: the
          Google app's SoundSearch. SystemServer only starts
